@@ -11,23 +11,23 @@
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#" @click="currentPage = 'home'">New Beginnings Assembly of God</a>
+                <a class="navbar-brand" href="home" @click.prevent="currentPage = 'home'">New Beginnings Assembly of God</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="home" @click="currentPage = 'home'">Home</a>
+                            <a class="nav-link" href="home" @click.prevent="currentPage = 'home'">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about" @click="currentPage = 'about'">About</a>
+                            <a class="nav-link" href="about" @click.prevent="currentPage = 'about'">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services" @click="currentPage = 'services'">Services</a>
+                            <a class="nav-link" href="services" @click.prevent="currentPage = 'services'">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact" @click="currentPage = 'contact'">Contact</a>
+                            <a class="nav-link" href="contact" @click.prevent="currentPage = 'contact'">Contact</a>
                         </li>
                     </ul>
                 </div>
